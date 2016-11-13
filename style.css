@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Syncopate', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Syncopate');
+
+}
+body {
+	background-color: #0A2440;
+	color: beige;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+header {
+	margin-top: .5em;
+	margin-bottom: -1em;
+	align-self: center;
+	font-family: 'Syncopate', sans-serif;
+}
+h1 {
+	font-family: 'Syncopate', sans-serif;
+	text-align: center;
+	font-size: 5 em;
+}
+
+.content {
+	flex: 1 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h3, h4 {
+	text-align: center;
+}
+h3 {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+h4 {
+	text-align: left;
+}
+.gender input {
+	margin: .5em;
+	width: 1em;
+}
+.address input {
+	width: 300px;
+	height: 25px;
+}
+.postal input{
+	width: 50px;
+}
+.country {
+	margin-right: .5em;
+}
+.country select {
+	margin-left: .5em;
+}
+
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 2em;
+	border-radius: 1em;
+	width: 70%;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+	width: 90px;
+	text-align: center;
+}
+input {
+	margin: .3em;
+    width: 250px;
+}
+textarea {
+	font: 1em sans-serif;
+	width: 400px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #999;
+}
+input:focus, textarea:focus {
+	border-color: #2580E5;
+}
+textarea {
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+}
+.result {
+	padding-left: 90px;
+}
+button {
+	margin-left: .5em;
+	background-color: #2580E5;
+	padding: .5em;
+	border: 1px solid #2580E5;
+	font-family: helvetica;
+	color: aliceblue;
+	font-weight: bold;
+	white-space: 4px;
+	
+}
+table {
+	border-collapse: collapse;
+}
+ul {
+	margin: 0;
+	display: inline;
+}
+li {
+	list-style-type: none;
+	
+}
+li input {
+	width: 50px;
+}
+tr, td {
+	margin: .5em;
+	border: 1px solid white;
+	text-align: center;
+	padding: 1em;
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+		<header>
+			<h1>Agence Peterson</h1>
+		</header>
+		<div class="content">
+			<form action="end.html">
+				<div class="you"><h3>Vous</h3>
+					<div class="gender"><label for="male">Masculin</label>
+				<input type="radio" name="gender" value="male" />
+				<label for="male">Feminin</label>
+				<input type="radio" name="gender" value="female" /></div>
+					<div class="firstname"><label for="firstname">Nom</label>
+					<input type="text" id="firstname" name="user_firstname"/>
+					</div>
+					<div class="lastname"><label for="lastname">Prénom</label>
+					<input type="text" id="lastname" name="user_lastname"/>
+					</div>
+					<div class="birthdate">
+						<label for="champ1">Date de naissance</label><input type="date" id="champ1" name="date">
+				</div>
+					<div class="address"><label for="address">Adresse</label>
+					<input type="text" id="adress" name="user_adress"/>
+				</div>
+					<div class="postal"><label for="postal">Code postal</label>
+					<input type="text" id="postal" name="user_postal"/>
+				</div>
+					<div class="city">
+						<label for="city">Ville</label><input type="text" id="adress" name="user_adress"/>
+				</div>
+					<div class="country">Pays<select name="country">
+					<option value="one">Belgique</option>
+					<option value="two">France</option>
+					<option value="three">Luxembourg</option><option value="four">Suisse</option>
+					</select>
+				</div>
+					<div class="mail">Email
+						<input type="email" id="mail" name="user_mail"/>
+					</div>
+				</div>
+				<div class="question">
+					<h3>Vos habitudes de consommation</h3>
+					<ul>
+						<li><h4>Qui est le responsable des achats alimentaires au sein de votre foyer?</h4>
+       	<div class="one_a">
+        <input type="checkbox" name="a_one_a" value="A" />
+        <label for="a_one_a">Vous </label>
+    	</div>
+        <div class="one_b">
+        <input type="checkbox" name="a_one_b" value="B" />
+        <label for="a_one_b">Votre conjoint(e)</label>
+    	</div>
+        <div class="one_c">
+        <input type="checkbox" name="a_c" value="C" />
+        <label for="a_one_c">Une autre personne (ex: votre maman...)</label>
+    </div></li>
+						<li><h4>Vous arrive-t-il d'acheter des produits alimentaires bio, même occasionnellement ? </h4>
+							<div class="two_a">
+        <input type="radio" name="a_two_a" value="yes" />
+        <label for="a_two_a">Oui </label>
+    	</div>
+        					<div class="two_b">
+        <input type="radio" name="a_two_b" value="no" />
+        <label for="a_two_b">Non</label>
+    </div>
+				</li>		
+						<li><h4>En moyenne, à quelle fréquence achetez-vous des produits bios?</h4>
+							<table>
+							<tr>
+								<td></td>
+								<td>Très fréquemment</td>
+								<td>1 à 2 fois par semaine.</td>
+								<td>1 fois par semaine</td>
+								<td>2 à 3 fois par mois</td>
+								<td>Rarement</td>
+								<td>Jamais</td>
+							</tr>
+							<tr>
+								<td>En grandes surfaces</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Au marché</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>En vente directe</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							</table>
+						</li>
+						<li><h4>Lorsque vous achetez des produits alimentaires (tous types de produits confondus), à quels critères accordez-vous le plus d'importance ?</h4>
+						<table>
+							<thead>
+							<td></td>
+							<td>Pas du tout important</td>
+            				<td>Plutôt pas important</td>
+							<td>Ni important, ni pas important</td>
+							<td>Plutôt important</td>
+							<td>Très important</td>
+							</thead>
+							<tr>
+							<td>Le prix</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Le souci sanitaire</td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Le souci écologique</td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>La proximité</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Issu d'un commerce équitable</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Le label</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>La marque</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>La composition</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+						</table>
+						</li>
+						<li><h4>Vous choisissez des produits bio lorsque vous achetez de(s)...</h4>
+						<table>
+							<thead>
+							<td></td>
+							<td>Oui toujours</td>
+							<td>Oui souvent</td>
+            				<td>Oui parfois</td>
+							<td>Non jamais</td>
+							</thead>
+							<tr>
+							<td>La viande</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Fruits</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Légumes</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Laitages</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Oeufs</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							</tr>
+							<tr>
+							<td>Pâtes et légumes secs</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				</tr>
+							<tr>
+							<td>Poissons</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				</tr>
+							<tr>
+							<td>Spiritueux</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				</tr>
+							<tr>
+							<td>Conserves</td>
+							<td><input type="radio"/></td>
+            				<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+							<td><input type="radio"/></td>
+            				</tr>
+						</table>
+						</li>
+						<li><h4>Enfin, quel produit alimentaire bio consommez-vous le plus souvent?</h4>
+						<input type="text" name="Q4" id="Q4" class="texte" size="50" maxlength="" value="">
+						</li>
+					</ul>
+				</div>
+				<div class="comment">
+					<label for="msg">Remarques</label>
+					<textarea id="msg" name="user_message"></textarea></div>
+				<div class="result">
+					<button type="submit">J'ai fini </button>
+					<button type="reset">J'en ai marre de vos questions </button>
+				</div>
+			</form>
+		</div>
+        <footer></footer>
+        
+    </body>
+</html>
