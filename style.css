@@ -20,7 +20,7 @@ header {
 h1 {
 	font-family: 'Syncopate', sans-serif;
 	text-align: center;
-	font-size: 5 em;
+	font-size: 6em;
 }
 
 .content {
@@ -43,6 +43,16 @@ h4 {
 	margin: .5em;
 	width: 1em;
 }
+
+.birthdate input {
+	box-sizing: border-box;
+	background-color: #2580E5;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #2580E5;
+	outline: none;
+}
 .address input {
 	width: 300px;
 	height: 25px;
@@ -55,6 +65,12 @@ h4 {
 }
 .country select {
 	margin-left: .5em;
+	padding: .5em;
+	color: white;
+	font-weight: bold;
+	background-color: #2580E5;
+	border: 1px solid #2580E5;
+
 }
 
 form {
@@ -82,15 +98,20 @@ textarea {
 	width: 400px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	border: 1px solid #999;
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
 }
 input:focus, textarea:focus {
 	border-color: #2580E5;
 }
-textarea {
-	vertical-align: top;
-	height: 5em;
-	resize: vertical;
+input[type="radio"]:hover {
+	cursor: crosshair;
+}
+.write input {
+	width: 200px;
 }
 .result {
 	padding-left: 90px;
@@ -104,7 +125,12 @@ button {
 	color: aliceblue;
 	font-weight: bold;
 	white-space: 4px;
-	
+}
+button:hover {
+	cursor: pointer;
+}
+button:active {
+	box-shadow: 1px 2px 3px black;
 }
 table {
 	border-collapse: collapse;
@@ -115,7 +141,7 @@ ul {
 }
 li {
 	list-style-type: none;
-	
+
 }
 li input {
 	width: 50px;
